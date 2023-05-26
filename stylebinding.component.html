@@ -1,0 +1,9 @@
+<p>stylebinding works!</p>
+
+<p [ngStyle]="{'background-color': isHighlighted ? 'yellow' : '', 'color': isHighlighted ? 'black' : ''}">
+    This paragraph will be highlighted if isHighlighted is true.
+  </p>
+
+  <p [ngClass]="{'highlighted': isHighlighted}">
+  This paragraph will be highlighted if isHighlighted is true.
+</p>
